@@ -1,6 +1,6 @@
 # npmtest-google-closure-compiler
 
-#### test coverage for  [google-closure-compiler (v20170409.0.0)](https://developers.google.com/closure/compiler/)  [![npm package](https://img.shields.io/npm/v/npmtest-google-closure-compiler.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-closure-compiler) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-closure-compiler.svg)](https://travis-ci.org/npmtest/node-npmtest-google-closure-compiler)
+#### basic test coverage for  [google-closure-compiler (v20170423.0.0)](https://developers.google.com/closure/compiler/)  [![npm package](https://img.shields.io/npm/v/npmtest-google-closure-compiler.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-closure-compiler) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-closure-compiler.svg)](https://travis-ci.org/npmtest/node-npmtest-google-closure-compiler)
 
 #### Check, compile, optimize and compress Javascript with Closure-Compiler
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-closure-compiler/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-closure-compiler/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-google-closure-compiler/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-closure-compiler/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-closure-compiler/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-google-closure-compiler/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-google-closure-compiler/build/coverage.html/index.html)
 
@@ -62,8 +62,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "dc1be29a9f7eef8611364533b271b9fac757c970",
-        "tarball": "https://registry.npmjs.org/google-closure-compiler/-/google-closure-compiler-20170409.0.0.tgz"
+        "shasum": "475c6a2f4512fd7fdbacb32997b2e1ab1ca6fff8",
+        "tarball": "https://registry.npmjs.org/google-closure-compiler/-/google-closure-compiler-20170423.0.0.tgz"
     },
     "engines": {
         "node": ">=4"
@@ -76,7 +76,7 @@
         "contrib/",
         "README.md"
     ],
-    "gitHead": "da10641e0ef4cfbcaa51e01d3fa5074f839be69a",
+    "gitHead": "a89bfe8bc212d4063eecc7891befe8e144130c13",
     "homepage": "https://developers.google.com/closure/compiler/",
     "keywords": [
         "javascript",
@@ -116,7 +116,8 @@
         "pretest": "./build_compiler.js",
         "test": "mocha"
     },
-    "version": "20170409.0.0"
+    "version": "20170423.0.0",
+    "bin": {}
 }
 ```
 
